@@ -1,6 +1,23 @@
+<div align="center">
+
 <p align="center"><img src="branding/readme_banner_official.jpg" alt="VictorRecovery banner" width="100%"></p>
 
 # VictorRecovery
+
+**A TWRP-based custom recovery for safe flashing, rollback and backups (experimental).**
+
+<p>
+  <a href="https://github.com/Victorious93/VictorRecovery/actions/workflows/build-hotdogb.yml"><img src="https://img.shields.io/github/actions/workflow/status/Victorious93/VictorRecovery/build-hotdogb.yml?branch=main&style=flat-square&labelColor=0B0F1A&logo=githubactions&logoColor=00E5FF&label=CI" alt="CI"/></a>
+  <img src="https://img.shields.io/badge/license-Apache--2.0-FF2BD6?style=flat-square&labelColor=0B0F1A" alt="License"/>
+  <img src="https://img.shields.io/badge/platform-Android%20recovery-00E5FF?style=flat-square&labelColor=0B0F1A" alt="Platform"/>
+  <a href="https://victorious-framework.pages.dev"><img src="https://img.shields.io/badge/Victorious-Framework-FF2BD6?style=flat-square&labelColor=0B0F1A" alt="Victorious Framework"/></a>
+</p>
+
+<p><a href="https://victorious-framework.pages.dev">Victorious Framework</a></p>
+
+</div>
+
+---
 
 A TWRP-based custom Android recovery by Victorious93, focused on safe flashing, rollback, flash lists, NetHunter-friendly updates and backups to a PC or Raspberry Pi.
 
@@ -34,6 +51,18 @@ A TWRP-based custom Android recovery by Victorious93, focused on safe flashing, 
 - Device-tree authors whose work we build on: TeamWin / Dees_Troy (shamu, angler, sm8150-common), rany2 (avicii), sreeshankark (avicii), rabilgic (hotdogb), mauronofrio (hotdog unified).
 - **BusyBox** (GPL-2.0-only), https://busybox.net. Source and build config ship with every release.
 - AOSP (Apache-2.0).
+
+---
+
+## Victorious fleet
+
+VictorRecovery is part of the [Victorious Framework](https://victorious-framework.pages.dev), a family of Android and PC tools by Don Victor. **Every app works standalone; fleet integrations are optional** and never required.
+
+Related: [VictorRecovery-Companion](https://github.com/Victorious93/VictorRecovery-Companion) (fleet app), [victorious-flash](https://github.com/Victorious93/victorious-flash) (flashing tool), [VictorLaunch](https://github.com/Victorious93/victorlaunch) (fleet launcher and theme provider). The full roster lives in [victorious-fleet](https://github.com/Victorious93/victorious-fleet), and live status is in [fleet-manifest](https://github.com/Victorious93/fleet-manifest).
+
+## Contributing
+
+Issues and pull requests are welcome. Keep changes focused, match the existing code style, never commit secrets or release keys, and keep any fleet integration optional so the app still works on its own. Open a PR against the default branch and wait for CI to pass.
 
 ## License
 Our own code: **Apache-2.0** (see [LICENSE](LICENSE)). Upstream components keep their original licences (Apache-2.0, GPL-2.0 and others). See [NOTICE](NOTICE) and [CREDITS.md](CREDITS.md).
