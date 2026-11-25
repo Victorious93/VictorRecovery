@@ -1,0 +1,13 @@
+VictorRecovery
+Copyright 2026 Victorious93
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE)
+for the code written by Victorious93 in this repository.
+
+This project builds on third-party work, which keeps its own licences and
+copyright. See CREDITS.md for details.
+
+- TeamWin Recovery Project (TWRP): https://github.com/TeamWin
+  Mostly Apache-2.0 (AOSP-derived code) with some GPL-licensed parts.
+- Android Open Source Project: Apache-2.0.
+- BusyBox: GPL-2.0-only. See CREDITS.md for how it is handled.
